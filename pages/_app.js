@@ -10,6 +10,7 @@ Router.events.on('routeChangeError',()=>NProgress.done())
 
 export default function MyApp({Component, pageProps}){
     return <Page>
+        <h1>Testing</h1>
         <Component {...pageProps}/> 
     </Page>
 }
